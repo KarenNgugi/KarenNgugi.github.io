@@ -18,7 +18,6 @@
             <button class='nav-toggle' aria-label="toggle navigation"><span class='hamburger'></span></span></button>
             <nav class='nav'>
                 <ul class='nav__list'>
-                    <li class='nav__item'><a href="#home" class='nav__link'>Home</a></li>
                     <li class='nav__item'><a href="#about" class='nav__link'>About Me</a></li>
                     <li class='nav__item'><a href="#skills" class='nav__link'>Skills</a></li>
                     <li class='nav__item'><a href="#projects" class='nav__link'>Projects</a></li>
@@ -128,19 +127,23 @@
         <!-- Contact Me -->
         <section class="contact__me" id='contact'>
             <h2 class='section__title section__title--contact'>Contact Me</h2>
-            <form action='action_page.php'>
-                <label for='name'>Name:</label>
-                <input type='text' id='name' name='name' required>
-
-                <label for='email'>Email:</label>
-                <input type='email' id='email' name='email' required>
-
-                <label for='message'>Message:</label>
-                <textarea id='message' name='message' placeholder='Write your message here...' required></textarea>
-                
-                <input type='submit' value='Send' class='btn'>
-            </form>
+            <div class='center-form'>
+                <form action='action_page.php'>
+                    <label for='name'>Name:</label>
+                    <input type='text' id='name' name='name' required>
+    
+                    <label for='email'>Email:</label>
+                    <input type='email' id='email' name='email' required>
+    
+                    <label for='message'>Message:</label>
+                    <textarea id='message' name='message' placeholder='Write your message here...' required></textarea>
+                    
+                    <input type='submit' value='Send' class='btn'>
+                </form>
+            </div>
         </section>
+
+        <button onclick='topFunction()' id='btnToTop' title='Back to Top'>^</button>
 
         <!-- Footer -->
         <footer class='footer'>

@@ -34,5 +34,8 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "html.hover.references": false,
     "css.hover.references": false,
-    "editor.hover.enabled": false
+    "editor.hover.enabled": false,
+    "javascript.suggest.paths": false,
+    "javascript.suggest.names": false,
+    "javascript.suggestionActions.enabled": false
 }
